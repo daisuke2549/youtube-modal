@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>youtube-po-up-test</title>
+    <title>youtube-pop-test</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="modal-video.min.css">
-    <script src="main.js"></script>
 <!-- jQuery -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="jquery-modal-video.min.js"></script>
@@ -76,7 +75,8 @@
   </div> --> 
 
 
-  <div id="app">
+
+  <!-- <div id="app">
     <button v-on:click="show" class="button">show!</button>
     <modal name="hello-world" :draggable="true" :resizable="true">
       <div class="modal-header">
@@ -88,7 +88,7 @@
       </div>  
     </modal>
   </div>
-
+ -->
 
 
 
@@ -108,25 +108,27 @@
     //         showModal: false
     //     }
     // });
-    Vue.use(window["vue-js-modal"].default);
-    var app = new Vue({
-    el: '#app',
-    methods: {
-    show : function() {
-      this.$modal.show('hello-world');
-    },
-    hide : function () {
-      this.$modal.hide('hello-world');
-    },
-  }
-})
-
-
-
-
-
+//     Vue.use(window["vue-js-modal"].default);
+//     var app = new Vue({
+//     el: '#app',
+//     methods: {
+//     show : function() {
+//       this.$modal.show('hello-world');
+//     },
+//     hide : function () {
+//       this.$modal.hide('hello-world');
+//     },
+//   }
+// })
     
 </script>
+<!-- 
+<script type="module">
+import Vue from '/vue'
+import VueYoutube from '/vue-youtube'
+ 
+Vue.use(VueYoutube)
+</script> -->
 
 
 </body>
