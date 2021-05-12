@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width">
+  <link rel="shortcut icon" href="/favicon.ico" >
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <title>【Magnific Popup】youtubeの関連動画を同一チャンネルに絞るデモサイト | 東京のホームページ制作 / WEB制作会社 BRISK</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  
+  <meta property="og:title" content="【Magnific Popup】youtubeの関連動画を同一チャンネルに絞るデモサイト | 東京のホームページ制作 / WEB制作会社 BRISK">
+  <meta property="og:description" content="【Magnific Popup】youtubeの関連動画を同一チャンネルに絞るデモサイト">
+  <meta property="og:url" content="">
+  <meta property="og:type" content="blog">
+  <meta property="og:local" content="ja_JP">
+  <meta property="og:image" content="/common/og-image.jpg">
+  <meta property="og:site_name" content="東京のホームページ制作 / WEB制作会社 BRISK">
+
+  <link rel="stylesheet" type="text/css" href="magnific-popup.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="./css/sp.css" media="screen and (max-width: 640px)">
+
+</head>
+<body>
+<div id="wrapper">
+
+  <main>
+    <div class="contents-block outer-block">
+      <div class="inner-block">
+
+        <h1 class="c-ttl01">【Magnific Popup】youtubeの関連動画を同一チャンネルに絞るデモサイト</h1>
+        <p>リンクをクリックすると、動画のポップアップが表示されます。</p>
+
+        <h2 class="c-ttl02">通常のポップアップに「rel=0」を付けた場合</h2>
+        <div class="btn-wrap">
+          <a class="popup-youtube01" href="https://www.youtube.com/watch?v=wpbFEDP7MUg&rel=0">youtube動画のリンク</a>
+        </div>
+        <p>URLを「https://www.youtube.com/watch?v=wpbFEDP7MUg&amp;rel=0」とし、末尾に<b>&amp;rel=0</b>を付けています。<br>
+          通常のポップアップの場合は、通常のリンクで設定しますが、「rel=0」は埋め込み用の記述のため対応されていないようです。<br>
+          この様に設定すると、<span style="color: #b31d23;">エラーで動画が再生できなくなってしまいます。</span></p>
+
+        <h2 class="c-ttl02">関連動画を同一チャンネルに絞ったポップアップ</h2>
+        <div class="btn-wrap">
+          <div data-id="wpbFEDP7MUg" class="popup-youtube02">youtube動画のリンク</div>
+        </div>
+        <p>こちらですと、関連動画が絞り込めます。<br>
+          また、「&amp;autoplay=1」を指定しているため、ポップアップされた時に自動再生もされます。</p>
+
+        <h2 id="data-speed" class="c-ttl02">+α：動画の再生開始位置を指定する</h2>
+        <div class="btn-wrap">
+          <div data-id="wpbFEDP7MUg" data-speed="120" class="popup-youtube02">youtube動画のリンク</div>
+        </div>
+        <p>「data-speed="120"」と入れておき、ポップアップされたときに動画の再生開始時位置を2分（120秒）に設定します。</p>
+
+      </div><!-- /inner-block -->
+    </div><!-- /contents-block -->
+  </main>
+
+
+</div><!-- /wrapper -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="jquery.magnific-popup.min.js"></script>
+
+</body>
+</html>
