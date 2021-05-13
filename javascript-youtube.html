@@ -109,6 +109,46 @@ console.log(value2);
 
 
 
+const arr = [1,2,3,4,5];
+
+const sum2 = arr.reduce(function(acc, cur){
+     return acc + cur;
+});
+
+console.log(sum2 / arr.length);
+
+
+Math._sum = function(array){
+    var result = 0, index =0;
+    for (index in array){
+        result = result + array[index];
+    }
+    return result;
+};
+
+console.log(Math._sum([22, 4, 6]));
+
+
+const sumArray = array => {
+  let sum = 0;
+  for (let i = 0, len = array.length; i < len; i++) {
+    sum += array[i];
+  }
+  return sum;
+};
+
+const array = [1,2,3]
+
+console.log(sumArray(array))
+
+
+
+const fruits = ["banana", "apple", "watermelon", "melon","grape", "mango"];
+
+console.log(fruits.length);
+
+
+
 </script>
 </body>
 </html>
