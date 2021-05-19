@@ -1,0 +1,17 @@
+.youtube-thumnail {
+    display: block;
+    text-align: center;
+  
+}
+
+.youtube-thumnail  iframe{
+    width: 500px;
+    height: 300px;
+}
+
+@media all and (max-width: 768px) {
+    .youtube-thumnail  iframe{
+        width: 100%;
+        height: 300px;
+    }
+}
