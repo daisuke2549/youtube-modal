@@ -1,3 +1,7 @@
+text-body{`
+  background-color: pink
+}
+
 .youtube-thumnail {
     display: block;
     text-align: center;
@@ -43,4 +47,5 @@
 	.sp-spacer {
 		display: block;
 	}
+}.text {
 }
