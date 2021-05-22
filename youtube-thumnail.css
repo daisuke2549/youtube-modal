@@ -49,3 +49,9 @@ text-body{`
 	}
 }.text {
 }
+@media screen and (max-width: 768px) {
+.test-youtube iframe{
+     width:100% !important;
+	 height: 300px;
+}
+}
