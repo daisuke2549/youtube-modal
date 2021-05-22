@@ -1,7 +1,7 @@
-text-body{`
-  background-color: pink
+body{
+	margin:0;
+	padding:0;
 }
-
 .youtube-thumnail {
     display: block;
     text-align: center;
